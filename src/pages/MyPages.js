@@ -11,7 +11,7 @@ const MyPages = () => {
         <h1 tw='text-4xl font-bold'>Zusammenstellung</h1>
         <p tw='pl-2'>
           Alles was hier dargestellt wird besteht ohne Backendanbindung. Hier werden lediglich
-          Frontend-Projekte dargestellt. <br /> Den gesammten Code kann man{' '}
+          Frontend-Projekte dargestellt. <br /> Den gesamten Code kann man{' '}
           <a tw='text-blue-500' href='https://github.com/Sickisonfire/my-pages/tree/master'>
             hier
           </a>{' '}
