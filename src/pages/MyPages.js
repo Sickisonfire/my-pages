@@ -23,7 +23,13 @@ const MyPages = () => {
           <Link to='/Dashboard'>
             <h2 tw='text-2xl font-bold text-blue-600'>Dashboard</h2>
           </Link>
-          <p tw='pl-2'>Einfacher Nachbau der Listenfunktion von Trello.</p>
+          <p tw='pl-2'>
+            Einfacher Nachbau der Listenfunktion von{' '}
+            <a tw='text-blue-500' href='https://trello.com/'>
+              Trello
+            </a>
+            .
+          </p>
         </div>
         <div tw='flex flex-col space-y-1'>
           <Link to='/'>

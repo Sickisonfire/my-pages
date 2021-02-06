@@ -32,7 +32,7 @@ export const Alert = () => {
     alert !== null && (
       <div
         css={[
-          tw`absolute right-0 bottom-0 p-4 m-4 font-medium text-sm shadow rounded bg-gray-50`,
+          tw`fixed left-0 bottom-0 p-4 m-4 font-medium text-sm shadow rounded bg-gray-50`,
           style.bg,
         ]}
       >

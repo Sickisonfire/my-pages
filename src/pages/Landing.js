@@ -1,24 +1,15 @@
-import { useContext, lazy, Suspense } from 'react'
+import { Suspense } from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
 /** @jsxImportSource @emotion/react */
 import tw from 'twin.macro'
 
-import { AlertContext } from '../contexts'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-const Button = lazy(() => import('../components/Button'))
 
 const renderLoading = () => <p>Loading</p>
 
 export const Landing = () => {
-  const alertContext = useContext(AlertContext)
-  const handleClick = (e) => {
-    e.preventDefault()
-    alertContext.setAlert('Does this work?', 'WARN')
-  }
-
   return (
     <>
       <Helmet>
