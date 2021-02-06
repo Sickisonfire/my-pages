@@ -1,2 +1,0 @@
-(this.webpackJsonpbasic_react_starter=this.webpackJsonpbasic_react_starter||[]).push([[10],{69:function(t,e,n){"use strict";n.r(e),n.d(e,"PageNotFound",(function(){return a}));var r=n(7),c=n(56),a=function(){return Object(r.jsxs)(r.Fragment,{children:[Object(r.jsx)(c.a,{children:Object(r.jsx)("title",{children:"Page not found"})}),"404 Page not found"]})};e.default=a}}]);
-//# sourceMappingURL=10.f879bbe8.chunk.js.map

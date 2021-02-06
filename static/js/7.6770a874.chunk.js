@@ -1,2 +1,0 @@
-(this.webpackJsonpbasic_react_starter=this.webpackJsonpbasic_react_starter||[]).push([[7],{64:function(t,e,c){"use strict";c.r(e),c.d(e,"About",(function(){return n}));var r=c(7),s=c(56),n=function(){return Object(r.jsxs)(r.Fragment,{children:[Object(r.jsx)(s.a,{children:Object(r.jsx)("title",{children:"About"})}),Object(r.jsx)("p",{children:"about"})]})};e.default=n}}]);
-//# sourceMappingURL=7.6770a874.chunk.js.map
