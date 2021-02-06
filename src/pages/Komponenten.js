@@ -10,7 +10,7 @@ const items = [
   { link: '/login', text: 'login' },
 ]
 
-export const Test = () => {
+export const Komponenten = () => {
   return (
     <Tooltip bottom content='test'>
       <div tw=' pt-2 rounded bg-red-100 mx-auto flex space-x-5 p-4 items-center'>
@@ -30,4 +30,4 @@ export const Test = () => {
   )
 }
 
-export default Test
+export default Komponenten

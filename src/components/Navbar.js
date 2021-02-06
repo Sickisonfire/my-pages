@@ -84,6 +84,15 @@ export const Navbar = () => {
                   Dashboard
                 </Link>
                 <Link
+                  to='/'
+                  css={[
+                    tw`text-gray-300  px-3 py-2 rounded-md text-sm font-medium`,
+                    pathname === '/' ? tw`bg-gray-900 text-white` : tw`hover:bg-gray-700`,
+                  ]}
+                >
+                  Landing
+                </Link>
+                <Link
                   to='/register'
                   css={[
                     tw`text-gray-300  px-3 py-2 rounded-md text-sm font-medium`,
@@ -102,13 +111,13 @@ export const Navbar = () => {
                   Login
                 </Link>
                 <Link
-                  to='/test'
+                  to='/components'
                   css={[
                     tw`text-gray-300  px-3 py-2 rounded-md text-sm font-medium`,
-                    pathname === '/test' ? tw`bg-gray-900 text-white` : tw`hover:bg-gray-700`,
+                    pathname === '/components' ? tw`bg-gray-900 text-white` : tw`hover:bg-gray-700`,
                   ]}
                 >
-                  Test
+                  Komponenten
                 </Link>
               </div>
             </div>

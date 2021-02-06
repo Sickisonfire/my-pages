@@ -24,10 +24,12 @@ import {
   faMagnet,
   faArchive,
 } from '@fortawesome/free-solid-svg-icons'
+import MyPages from './pages/MyPages'
+import BackToOverview from './components/BackToOverview'
 
 const Dashboard = lazy(() => import('./pages/Dashboard'))
 const About = lazy(() => import('./pages/About'))
-const Test = lazy(() => import('./pages/Test'))
+const Components = lazy(() => import('./pages/Komponenten'))
 const Landing = lazy(() => import('./pages/Landing'))
 const Register = lazy(() => import('./pages/Register'))
 const Login = lazy(() => import('./pages/Login'))
@@ -58,13 +60,15 @@ export const App = () => {
           <Global styles={globalStyle} />
           <Navbar />
           <Alert />
+          <BackToOverview />
           <Suspense fallback={<div>loading..</div>}>
             <Switch>
               <Route exact path='/dashboard' component={Dashboard} />
               <Route exact path='/register' component={Register} />
               <Route exact path='/login' component={Login} />
               <Route exact path='/about' component={About} />
-              <Route exact path='/test' component={Test} />
+              <Route exact path='/components' component={Components} />
+              <Route exact path='/my-pages' component={MyPages} />
               <Route exact path='/' component={Landing} />
               <Route component={PageNotFound} />
             </Switch>
