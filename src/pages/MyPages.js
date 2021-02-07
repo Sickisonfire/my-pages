@@ -6,7 +6,7 @@ import 'twin.macro'
 
 const MyPages = () => {
   return (
-    <div tw='container mx-auto  bg-white rounded-lg shadow-md m-24 p-12'>
+    <div tw='mx-auto  bg-white rounded-lg shadow-md m-24 p-12'>
       <div tw='flex flex-col space-y-2 mb-6'>
         <h1 tw='text-4xl font-bold'>Zusammenstellung</h1>
         <p tw='pl-2'>
